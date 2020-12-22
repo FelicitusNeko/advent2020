@@ -1,0 +1,20 @@
+# Yarn 2
+.yarn/*
+!.yarn/cache/
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/versions/
+!.yarn/sdks/
+
+# VS Code/Codium
+.vscode/
+
+# Typescript
+dist/
+tsbuildinfo.ignore
+
+# Webpack Plugins
+node_modules/
+
+# Misc
+debug.log

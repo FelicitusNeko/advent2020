@@ -1,0 +1,18 @@
+{
+  "name": "advent2020",
+  "version": "1.0.0",
+  "description": "Advent of Code 2020",
+  "main": "index.js",
+  "author": "KewlioMZX",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "yarn tsc",
+    "start": "yarn tsc && yarn node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "@yarnpkg/pnpify": "^2.4.0",
+    "typescript": "^4.1.2"
+  }
+}
